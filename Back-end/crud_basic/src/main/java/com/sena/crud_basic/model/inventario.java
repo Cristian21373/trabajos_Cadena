@@ -26,8 +26,7 @@ public class inventario {
     @ManyToOne
     @JoinColumn(name="id_proveedor")
         private proveedores id_Proveedores;
-    public inventario(int id_inventario, String cantidad, LocalDateTime fecha_actualizacion, productos id_producto,
-            proveedores id_Proveedores) {
+    public inventario(int id_inventario, String cantidad, LocalDateTime fecha_actualizacion, productos id_producto, proveedores id_Proveedores) {
         this.id_inventario = id_inventario;
         this.cantidad = cantidad;
         this.fecha_actualizacion = fecha_actualizacion;

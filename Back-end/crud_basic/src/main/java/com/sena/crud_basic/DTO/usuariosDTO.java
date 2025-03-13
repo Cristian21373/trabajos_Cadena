@@ -8,8 +8,6 @@ public class usuariosDTO {
     private String contrasena;
     private String direccion;
     private String telefono;
-    private LocalDateTime fecha_regsitro;
-    
     public usuariosDTO(String nombre, String email, String contrasena, String direccion, String telefono, LocalDateTime fecha_registro) {
         this.nombre = nombre;
         this.email = email;
