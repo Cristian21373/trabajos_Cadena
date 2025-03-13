@@ -69,3 +69,4 @@ public class pedidos {
         this.id_usuario=id_usuario;
     }
 }
+// otro commit con los mismos cambios por el tonto que tenia esto y no quito las credenciales
