@@ -29,7 +29,8 @@ public class productosService {
             productosDTO.getnombre(),
             productosDTO.getdescripcion(),
             productosDTO.getprecio(),
-            productosDTO.getcantidad());
+            productosDTO.getcantidad(),
+            productosDTO.id_categoria());
         return productos;
     }
 }

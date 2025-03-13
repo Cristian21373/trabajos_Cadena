@@ -35,7 +35,7 @@ public class usuariosService {
             usuariosDTO.getContrasena(),
             usuariosDTO.getDireccion(),
             usuariosDTO.getTelefono(),
-            null);
+            usuariosDTO.fecha_registro());
         return usuarios;
     }
 }

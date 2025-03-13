@@ -35,8 +35,7 @@ public class productos {
             this.cantidad=cantidad;
             this.id_categorias=id_categorias;
     }
-    public productos(int i, String getnombre, String getdescripcion, double getprecio, String getcantidad) {
-    }
+
     public int getid_producto(){
         return id_producto;
     }

@@ -1,7 +1,6 @@
 package com.sena.crud_basic.model;
 
 import java.sql.Date;
-import java.time.LocalDateTime;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -27,16 +26,12 @@ public class pedidos {
     @JoinColumn(name="id_usuario")
         private usuarios id_usuario;
     
-    public pedidos(int id_pedido, Date fecha_pedido, double total, String estado, com.sena.crud_basic.model.usuarios id_usuario){
+    public pedidos(int id_pedido, Date fecha_pedido, double total, String estado,usuarios id_usuario){
         this.id_pedido=id_pedido;
         this.fecha_pedido=fecha_pedido;
         this.total=total;
         this.estado=estado;
         this.id_usuario=id_usuario;
-    }
-
-    public pedidos(int i, LocalDateTime getfecha_pedido, double gettotal, String geestado) {
-        //TODO Auto-generated constructor stub
     }
 
     public int getid_pedido(){
@@ -70,7 +65,7 @@ public class pedidos {
     public usuarios getid_usuario(){
         return id_usuario;
     }
-    public void setid_usuario(com.sena.crud_basic.model.usuarios id_usuario){
+    public void setid_usuario(usuarios id_usuario){
         this.id_usuario=id_usuario;
     }
 }

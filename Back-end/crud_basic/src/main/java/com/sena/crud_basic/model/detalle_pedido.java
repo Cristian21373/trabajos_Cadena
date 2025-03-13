@@ -32,9 +32,6 @@ public class detalle_pedido {
         this.id_pedido=id_pedido;
         this.id_productos=id_producto;
     }
-    public detalle_pedido(int i, String getcantidad, double getsubtotal) {
-        //TODO Auto-generated constructor stub
-    }
     public int getid_detalle(){
         return id_detalle;
     }

@@ -25,7 +25,9 @@ public class detalle_pedidoService {
         detalle_pedido detalle_pedido = new detalle_pedido(
             0,
             detalle_pedidoDTO.getcantidad(),
-            detalle_pedidoDTO.getsubtotal());
+            detalle_pedidoDTO.getsubtotal(),
+            detalle_pedidoDTO.id_pedidos(),
+            detalle_pedidoDTO.id_producto());
         return detalle_pedido;
     }
 }

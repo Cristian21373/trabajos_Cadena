@@ -34,5 +34,45 @@ public class envio {
         this.id_pedido=id_pedido;
     }
 
+    public int getId_envio() {
+        return id_envio;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public Date getFecha_envio() {
+        return fecha_envio;
+    }
+
+    public pedidos getId_pedido() {
+        return id_pedido;
+    }
+
+    public void setId_envio(int id_envio) {
+        this.id_envio = id_envio;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public void setFecha_envio(Date fecha_envio) {
+        this.fecha_envio = fecha_envio;
+    }
+
+    public void setId_pedido(pedidos id_pedido) {
+        this.id_pedido = id_pedido;
+    }
+
     
 }

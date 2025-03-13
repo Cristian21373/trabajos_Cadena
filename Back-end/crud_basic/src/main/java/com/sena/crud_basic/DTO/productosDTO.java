@@ -1,5 +1,7 @@
 package com.sena.crud_basic.DTO;
 
+import com.sena.crud_basic.model.categorias;
+
 public class productosDTO {
     private String nombre;
     private String descripcion;
@@ -43,5 +45,9 @@ public class productosDTO {
 
     public void setcantidad(String cantidad){
         this.cantidad=cantidad;
+    }
+
+    public categorias id_categoria() {
+        return id_categoria();
     }
 }

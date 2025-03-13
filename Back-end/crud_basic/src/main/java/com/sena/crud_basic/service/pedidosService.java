@@ -27,7 +27,8 @@ public class pedidosService {
             0,
             pedidosDTO.getfecha_pedido(),
             pedidosDTO.gettotal(),
-            pedidosDTO.geestado());
+            pedidosDTO.geestado(),
+            pedidosDTO.id_usuario());
             return pedidos;
     }
 }

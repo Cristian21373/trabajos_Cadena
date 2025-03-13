@@ -2,6 +2,8 @@ package com.sena.crud_basic.DTO;
 
 import java.util.Date;
 
+import com.sena.crud_basic.model.pedidos;
+
 public class envioDTO {
     private String direccion;
     private String estado;
@@ -32,5 +34,9 @@ public class envioDTO {
     }
     public void setfecha_envio(Date fecha_envio){
         this.fecha_envio=fecha_envio;
+    }
+
+    public pedidos id_pedido() {
+        return id_pedido();
     }
 }

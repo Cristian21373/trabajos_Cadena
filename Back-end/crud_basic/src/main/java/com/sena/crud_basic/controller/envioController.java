@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/api/v4/envio")
 public class envioController {
     @Autowired
-    private envioService.save(envioDTO);
+    private envioService envioService;
     @PostMapping("/")
     public ResponseEntity<Object> registerEnvio(@RequestBody envioDTO envioDTO){
         envioService.save(envioDTO);

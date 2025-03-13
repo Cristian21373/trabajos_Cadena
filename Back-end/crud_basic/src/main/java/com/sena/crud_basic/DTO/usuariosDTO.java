@@ -1,5 +1,7 @@
 package com.sena.crud_basic.DTO;
 
+import java.time.LocalDateTime;
+
 public class usuariosDTO {
     private String nombre;
     private String email;
@@ -53,5 +55,9 @@ public class usuariosDTO {
 
     public void setTelefono(String telefono) {
         this.telefono = telefono;
+    }
+
+    public LocalDateTime fecha_registro() {
+        return fecha_registro();
     }
 }

@@ -1,5 +1,8 @@
 package com.sena.crud_basic.DTO;
 
+import com.sena.crud_basic.model.pedidos;
+import com.sena.crud_basic.model.productos;
+
 public class detalle_pedidoDTO {
     private String cantidad;
     private double subtotal;
@@ -21,5 +24,13 @@ public class detalle_pedidoDTO {
     }
     public void setsubtotal(double subtotal){
         this.subtotal=subtotal;
+    }
+
+    public pedidos id_pedidos() {
+        return id_pedidos();
+    }
+
+    public productos id_producto() {
+        return id_producto();
     }
 }
