@@ -26,7 +26,6 @@ public class categorias {
         this.id_categorias=id_categorias;
     }
     public String getnombre() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getnombre'");
+        return nombre;
     }
 }
